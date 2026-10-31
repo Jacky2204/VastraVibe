@@ -9,7 +9,7 @@ function Footer(props) {
   return (
     <footer className="border-t py-12">
       <div className="container mx-auto grid items-center grid-cols-1 md:grid-cols-4 gap-8 px-4 lg:px-4">
-        <div >
+        <div>
           <h3 className="text-lg text-gray-800 mb-4">Newsletter</h3>
           <p className="text-gray-500 mb-4">
             Be the first to hear about new products, exclusive events, and
@@ -129,7 +129,7 @@ function Footer(props) {
       {/* footer bottom */}
       <div className="container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6">
         <p className="text-gray-500 text:sm tracking-tighter text-center">
-          2025, CompileTab. All Rights Reserved.
+          © 2025, CompileTab. All Rights Reserved.
         </p>
       </div>
     </footer>

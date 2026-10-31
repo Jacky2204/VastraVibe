@@ -53,9 +53,9 @@ function CartContent(props) {
           </div>
           <div>
             <p>$ {product.price.toLocaleString()}</p>
-            <butto>
+            <button>
                 <RiDeleteBin3Line className="h-6 w-6 mt-2 text-red-600"/>
-            </butto>
+            </button>
           </div>
         </div>
       ))}
