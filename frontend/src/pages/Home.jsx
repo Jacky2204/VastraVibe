@@ -1,12 +1,14 @@
-import React from 'react';
-import Hero from '../components/Layout/Hero';
+import React from "react";
+import Hero from "../components/Layout/Hero";
+import GenderCollectionSection from "../components/Product/GenderCollectionSection";
 
 function Home(props) {
-    return (
-        <div>
-          <Hero/>  
-        </div>
-    );
+  return (
+    <div>
+      <Hero />
+      <GenderCollectionSection />
+    </div>
+  );
 }
 
 export default Home;
